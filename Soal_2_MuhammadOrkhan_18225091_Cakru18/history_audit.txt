@@ -1,0 +1,30 @@
+  142  ssh bandit2@bandit.labs.overthewire.org -p 2220
+  143  ssh bandit3@bandit.labs.overthewire.org -p 2220
+  144  man ncat
+  145  nc -vz 103.197.188.83 5000
+  146  curl -s -X POST http://103.197.188.83:5000/auth   -H "Content-Type: application/json"   -d '{"user":"admin","pass":"admin"}'
+  147  nc -vz 127.0.0.1:5001
+  148  nc -v 127.0.0.1 5000
+  149  nc -v 10.5.101.82 5001
+  150  nc -vz 10.5.101.82 5001
+  151  curl -s -X POST http://10.5.101.82:5001/auth   -H "Content-Type: application/json"   -d '{"user":"admin","pass":"admin"}'
+  152  clear
+  153  nmap
+  154  nmap indonesia.com
+  155  sudo apt install nmap
+  156  whoami
+  157  passwd
+  158  uname -sr && whoami
+  159  sudo apt update
+  160  wsl -u root
+  161  sudo apt update
+  162  sudo apt install build-essential -y
+  163  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+  164  mkdir ~/recovery_ops
+  165  cd ~/recovery_ops
+  166  curl -L https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt -o system_raw.txt
+  167  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+  168  rm system_raw.txt
+  169  ls
+  170  code .
+  171  history | tail -n 30 > history_audit.txt
