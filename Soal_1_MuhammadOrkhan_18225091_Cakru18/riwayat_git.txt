@@ -1,0 +1,6 @@
+*   9fe5550 merging v1 into v2
+|\  
+| * a2a482a ini versi 1
+* | d0bc05b ini versi 2
+|/  
+* dedce60 inisiasi github
